@@ -15,8 +15,8 @@ body,
 }
 .ctn-curtain.section-footer {
   background-size: cover;
-  background-position: center;
-  background-image: radial-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1) ), url('background.jpg');
+  background-position: left;
+  background-image: radial-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9) ), url('code.png');
 }
 .ctn-curtain.section-footer a {
   color: #ffb56b;

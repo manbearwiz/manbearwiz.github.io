@@ -1,42 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Kevin Brey">
 
-    <title>Kevin Brey</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Kevin Brey">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" >
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300'>
-    <link rel="stylesheet" href="main.css"/>
-  </head>
+  <title>Kevin Brey</title>
 
-  <body>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
+  <script type="text/javascript">
+      var feed = new Instafeed({
+        get: 'user',
+        userId: '50151687',
+        accessToken: '50151687.94abde4.dcb43b536dba49ef86a6d60e86827d24',
+        link: 'true',
+        limit: '6',
+        template: '<div class="col-xs-4 col-md-2"><a href="{{link}}" class="thumbnail"><img src="{{image}}" alt="{{caption}}"></a></div>'
+      });
+      feed.run();
+    </script>
+  <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300'>
+  <link rel="stylesheet" href="main.css" />
+</head>
 
-    <div class="ctn-curtain section-footer">
-      <div class="section-inner masthead">
-        <div class="container">
-          <div class="brand">Kevin Brey</div>
-          <div class="tagline">
-            Professional Software Developer &amp; Distracted College <strike>Student</strike> Graduate
-          </div>
-          <ul class="social list-inline">
-            <li><a target="_blank" href="https://linkedin.com/in/breyk"><i class="fa fa-linkedin-square"></i></a></li>
-            <li><a target="_blank" href="https://stackexchange.com/users/1307817/kevin-brey"><i class="fa fa-stack-exchange"></i></a></li>
-            <li><a target="_blank" href="https://reddit.com/user/manbearwiz"><i class="fa fa-reddit-square"></i></a></li>
-            <li><a target="_blank" href="https://twitter.com/manbearwiz"><i class="fa fa-twitter-square"></i></a></li>
-            <li><a target="_blank" href="https://instagram.com/manbearwiz/"><i class="fa fa-instagram"></i></a></li>
-            <li><a target="_blank" href="https://facebook.com/kevin.brey.5"><i class="fa fa-facebook-square"></i></a></li>
-            <li><a target="_blank" href="https://github.com/manbearwiz"><i class="fa fa-github-square"></i></a></li>
-            <li><a target="_blank" href="https://bitbucket.org/kevin_brey"><i class="fa fa-bitbucket-square"></i></a></li>
-            <li><a target="_top"   href="mailto:manbearwiz@gmail.com"><i class="fa fa-envelope-square"></i></a></li>
-          </ul>
+<body>
+
+  <div class="ctn-curtain section-footer">
+    <div class="section-inner masthead">
+      <div class="container">
+        <div class="brand">Kevin Brey</div>
+        <div class="tagline">
+          Professional Software Developer &amp; Distracted College
+          <strike>Student</strike> Graduate
         </div>
+        <ul class="social list-inline">
+          <li><a target="_blank" href="https://linkedin.com/in/breyk"><i class="fa fa-linkedin-square"></i></a></li>
+          <li><a target="_blank" href="https://stackexchange.com/users/1307817/kevin-brey"><i class="fa fa-stack-exchange"></i></a></li>
+          <li><a target="_blank" href="https://reddit.com/user/manbearwiz"><i class="fa fa-reddit-square"></i></a></li>
+          <li><a target="_blank" href="https://twitter.com/manbearwiz"><i class="fa fa-twitter-square"></i></a></li>
+          <li><a target="_blank" href="https://instagram.com/manbearwiz/"><i class="fa fa-instagram"></i></a></li>
+          <li><a target="_blank" href="https://facebook.com/kevin.brey.5"><i class="fa fa-facebook-square"></i></a></li>
+          <li><a target="_blank" href="https://github.com/manbearwiz"><i class="fa fa-github-square"></i></a></li>
+          <li><a target="_blank" href="https://bitbucket.org/kevin_brey"><i class="fa fa-bitbucket-square"></i></a></li>
+          <li><a target="_top" href="mailto:manbearwiz@gmail.com"><i class="fa fa-envelope-square"></i></a></li>
+        </ul>
       </div>
     </div>
+  </div>
+  <footer class="footer navbar-fixed-bottom">
+    <div class="container">
+      <div class="row" id="instafeed"></div>
+    </div>
+  </footer>
+</body>
 
-  </body>
 </html>
