@@ -1,55 +1,40 @@
-.ctn-curtain {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: #FFF;
-  font-size: 18px;
-  line-height: 1.2;
-}
-html,
-body,
-.ctn-curtain {
-  width: 100%;
+html, body, .container {
   height: 100%;
-}
-.ctn-curtain {
-  display: table;
-}
-.ctn-curtain.section-footer {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  }
+
+body {
   background-size: cover;
-  background-position: left;
   background-image: radial-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9) ), url('code.png');
 }
-.ctn-curtain.section-footer a {
-  color: #ffb56b;
-  font-weight: bold;
-  text-decoration: none;
+
+.jumbotron {
+  background-color:rgba(0, 0, 0, 0.2);
+  color: white;
 }
-.ctn-curtain.section-footer a:hover {
-  color: #6699cc;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.section-inner {
-  display: table-cell;
-  vertical-align: middle;
-  padding: 50px 0;
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column
 }
-/**
- * Masthead
- */
-.masthead {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: #FFF;
-  line-height: 1.2;
-  text-align: center;
-}
-.masthead .brand {
+
+.jumbotron h1 {
   font-size: 100px;
 }
-.masthead .tagline {
-  margin-top: 30px;
-  font-size: 24px;
-}
+
 /**
  * Social links
  */
+ 
 .social {
   margin-top: 30px;
 }
