@@ -1,47 +1,37 @@
-html, body, .container {
+html,
+body,
+.container {
   height: 100%;
   font-family: 'Open Sans Condensed', sans-serif;
-  text-align: center;
-  }
+}
 
 body {
   background-size: cover;
-  background-image: radial-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9) ), url('code.png');
+  background-image: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)),
+    url("code.png");
 }
 
 .jumbotron {
-  background-color:rgba(0, 0, 0, 0.2);
-  color: white;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.content {
-  flex-grow: 1;
-  display: flex;
-  justify-content: center;
-  flex-direction: column
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .jumbotron h1 {
   font-size: 100px;
 }
 
-/**
+/*
  * Social links
  */
- 
+
 .social {
   margin-top: 30px;
 }
+
 .social a {
-  color: #FFF !important;
+  color: #fff !important;
   font-size: 36px;
 }
+
 .social a:hover {
   color: #6699cc !important;
 }
