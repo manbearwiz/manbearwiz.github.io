@@ -4,9 +4,8 @@
 
 ## Education
 
-### **B.S. in Software Engineering** _(ABET Accredited)_
-
-**University of Wisconsin-Platteville** • 2015
+**B.S. in Software Engineering** (ABET Accredited)  
+University of Wisconsin–Platteville, 2015
 
 ## Employers
 
@@ -14,7 +13,7 @@
 - **Beacon Technologies Inc.** • _Software Engineer_ • Feb 2019 – Mar 2021
 - **Omni Resources** • _Software Engineer_ • Jun 2015 – Feb 2019
 - **Thrivent Financial** • _Java Application Developer (Intern)_ • May 2014 – Sep 2014
-- **Mercury Marine** • _Software Developer (Intern)_ • May 2013 – Dec 2013  
+- **Mercury Marine** • _Software Developer (Intern)_ • May 2013 – Dec 2013
 - **University of Wisconsin-Platteville** • _Research Software Developer_ • Mar 2011 – May 2013
 
 ## Projects
@@ -23,10 +22,13 @@
 
 **Tech:** Angular, TypeScript, RxJS, Angular Material, single-spa, Storybook, Webpack
 
-- Lead frontend architecture for a large-scale transportation management system.
-- Created the single-spa microfrontend infrastructure and shared utility modules.
-- Establish coding standards and develop tooling to improve development experience for product teams.
-- Collaborated with design teams to create and document reusable UI component libraries in Storybook.
+- Led frontend architecture for a large-scale transportation management system.
+- Designed and implemented a single-spa microfrontend infrastructure for independent team deployments.
+- Developed shared modules for authentication, logging, notifications, and feature flags.
+- Established coding standards and tooling to improve developer experience.
+- Collaborated with designers to build and document a reusable UI component library in Storybook.
+- Integrated Datadog performance monitoring and defined SLIs/SLOs.
+- Mentored engineers on Angular, TypeScript, and RxJS best practices.
 
 ### **[KBX Logistics – Visibility](https://kbxtrack.kbxt.cloud/)** • _Full Stack (Consultant)_ • Feb 2019 – Mar 2021
 
@@ -37,7 +39,7 @@
 
 ### **[Homesite – Quote Refresh](https://autoinsurance1.progressivedirect.com/0/UQA/Quote/AddressEntryPrefillEdit)** • _Frontend (Consultant)_ • Apr 2018 – Feb 2019
 
-**Tech:** React, Redux, Flow, Material-UI, Storybook, Webpack, Swagger Hub
+**Tech:** React, Redux, Flow, Material-UI, Storybook, Webpack, Swagger Hub, create-react-app
 
 - Developed a responsive web application for quoting and purchasing home and renters insurance.
 - Designed a single codebase supporting multiple brands with distinct workflows.
@@ -61,9 +63,9 @@
 
 **Tech:** C#, AWS, Docker, Terraform, Packer, Linux, Redis, Jenkins
 
-- Led migration of legacy Windows-based microservices to Dockerized Linux containers on AWS.
-- Built proofs-of-concept connecting MongoDB, Redis, Kafka, and RabbitMQ to early ASP.NET Core, addressing compatibility gaps.
-- Automated CI/CD pipelines using Jenkins to deploy containerized microservices.
+- Led migration of legacy Windows microservices to Dockerized Linux containers on AWS.
+- Built POCs to connect MongoDB, Redis, Kafka, and RabbitMQ to early versions of ASP.NET Core, addressing compatibility gaps.
+- Automated CI/CD pipelines with Jenkins to deploy containerized microservices.
 
 ### **[The Utech Group – illumyx](https://survey.illumyx.com/login)** • _Full Stack (Consultant)_ • Feb 2016 – Aug 2016
 
@@ -82,53 +84,50 @@
 
 **Tech:** C#, WPF, .NET, Microsoft SQL Server, C, VMware
 
-- Developed a desktop WPF application to configure and diagnose engine and vessel control systems.
-- Built a CI/CD build server using VMware and JetBrains TeamCity to prevent regressions.
-- Debugged applications interfacing with embedded systems via CAN bus.
+- Built a desktop application for configuring and diagnosing engine and vessel control systems.
+- Created a CI/CD build server using VMware and JetBrains TeamCity to automate regression testing.
+- Debugged applications communicating with embedded systems via CAN bus.
 
 ### **[UW Platteville – Economics Research](https://scholar.google.com/citations?user=1ipdzgEAAAAJ&hl=en)** • _Research Software Developer_ • Mar 2011 – Jun 2011
 
 **Tech:** C++
 
-- Sole developer under an economics professor, building console applications to analyze the impact of R&D spending on economic sector growth.
-- Processed historical R&D data from the IMF and World Bank to generate weighted networks predicting sectoral economic growth based on innovation investments.
+- Sole developer for an economics research project analyzing the impact of R&D spending.
+- Created a console app to generate weighted network models to predict sectoral economic growth based on innovation investment data from IMF and World Bank.
 
-_More detailed list of employers & projects on [LinkedIn](https://linkedin.com/in/breyk)_
+> _More detailed list of employers & projects on [LinkedIn](https://linkedin.com/in/breyk)_
 
 ## Open-Source Contributions
 
-### angular/angular
+- **[angular/angular](https://github.com/angular/angular)**
+  - Created a diagnostic to detect missing imports of custom structural directives, easing migration to standalone components for our product teams.
+- **[ReactiveX/rxjs](https://github.com/ReactiveX/rxjs)**
+  - Fixed the predicate signature on the `partition` operator, preserving type safety for a key pattern.
+- **[storybookjs/storybook](https://github.com/storybookjs/storybook)**
+  - Resolved errors when using Angular visual regression tests with Storybook 7.
+- **[vitejs/vite](https://github.com/vitejs/vite)**
+  - Updated documentation to reflect modern TypeScript best practices and internal usage patterns.
+- **[dstelljes/luxon-angular](https://github.com/dstelljes/luxon-angular)**
+  - Updated the build process to support Angular >=10, preventing blockers for product-team migrations.
+- **[JetBrains/YouTrackSharp](https://github.com/JetBrains/YouTrackSharp)**
+  - Implemented authentication via `System.Net.NetworkCredentials` and `SecureString` so it could integrate with our internal .NET tools.
 
-- Created a diagnostic to detect missing imports of custom structural directives, easing migration to standalone components for our product teams.
-
-### ReactiveX/rxjs
-
-- Fixed the predicate signature on the `partition` operator, enabling a key pattern to function while preserving type safety.
-
-### storybookjs/storybook
-
-- Resolved an Angular compatibility issue in Storybook 7, removing noisy warnings.
-
-### vitejs/vite
-
-- Updated documentation to reflect current TypeScript best practices and internal usage patterns.
-
-_Additional contributions on [GitHub](https://github.com/manbearwiz)_
+> _Additional contributions on [GitHub](https://github.com/manbearwiz)_
 
 ## Technologies
 
 ### **Frontend**
 
-- **Languages:** TypeScript, JavaScript, Flow
-- **Frameworks:** Angular, React, Redux, single-spa
-- **Component Libraries:** Tailwind CSS, Angular Material, Material-UI, Bootstrap, D3
-- **Tooling:** Webpack, Storybook, create-react-app, Vite, esbuild, prettier, eslint
+- **Languages:** TypeScript, JavaScript, Flow, SASS/SCSS
+- **Frameworks:** Angular, React, Redux, single-spa, D3
+- **Components & Styling:** Tailwind CSS, Angular Material, Material-UI, Bootstrap
+- **Tooling:** Webpack, Storybook, create-react-app, Vite, esbuild, Prettier, ESLint
 
 ### **Backend**
 
 - **Languages:** C#, Python, JavaScript/Node.js, Java
-- **Frameworks:** GraphQL, Entity Framework Core, ASP.NET Core, Express.js, Starlette
-- **Databases:** Elasticsearch, Apache Lucene, PostgreSQL, SQL Server, MarkLogic, MongoDB, Redis
+- **Frameworks:** ASP.NET Core, Entity Framework Core, Express.js, GraphQL, Starlette
+- **Databases & Search:** Elasticsearch, Apache Lucene, PostgreSQL, SQL Server, MarkLogic, MongoDB, Redis
 
 ### **DevOps**
 
