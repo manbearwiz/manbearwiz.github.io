@@ -1,44 +1,39 @@
 # Kevin Brey
 
-**Software Architect** • [kevinbrey.com](https://kevinbrey.com)
-
----
+**Software Architect** | [kevinbrey.com](https://kevinbrey.com) | [LinkedIn](https://linkedin.com/in/breyk) | [GitHub](https://github.com/manbearwiz)
 
 ## Education
 
-**B.S. in Software Engineering** (ABET Accredited)  
-University of Wisconsin–Platteville, 2015
+**B.S. Software Engineering (ABET Accredited)** University of Wisconsin–Platteville, 2015
 
----
+## Experience
 
-## **Experience**
+### **KBX** | _Software Engineer → Software Architect_ | Mar 2021 – Present | Green Bay, WI
 
-### **KBX** • _Software Engineer → Software Architect_ • Mar 2021 – Present • Green Bay, WI
-
-**Tech:** Angular, TypeScript, RxJS, Angular Material, single-spa, Storybook, Webpack, Datadog, GitHub Actions, AWS
+**Tech:** Angular, TypeScript, RxJS, Angular Material, single-spa, Storybook, Webpack, Vite, Datadog, GitHub Actions, Docker, AWS (CloudFront, S3, ECS, OpenSearch)
 
 - Architected and led the frontend platform for a large-scale Transportation Management System (TMS).
-- Designed and implemented a microfrontend architecture with single-spa, enabling independent team deployments and reducing time spent coordinating releases.
-- Developed shared modules for authentication, logging, notifications, and feature flags, improving code reuse and consistency across teams.
-- Established coding standards and tooling to improve developer experience.
-- Collaborated with designers to build and document a reusable UI component library in Storybook with visual regression testing.
-- Introduced Datadog performance monitoring to ensure reliable, observable frontend performance.
-- Mentored engineers in Angular, TypeScript, RxJS, and testing best practices.
+- Designed and implemented a microfrontend architecture with single-spa, native ES Modules, and Vite, enabling fast, independent team deployments and reducing cross-team dependencies.
+- Developed core modules for AuthN/AuthZ, logging, notifications, and feature flags to ensure architectural consistency across 10+ teams.
+- Orchestrated automated, independent upgrades for 100+ microfrontends across major framework changes, mitigating EOL risks with minimal disruption to development.
+- Established coding standards, shared tooling, and generative AI instructions to maintain high code quality and accelerate development.
+- Collaborated with UX to build a reusable UI library in Storybook with automated visual regression testing.
+- Established SLIs/SLOs via Datadog for 500+ production microservices, enabling data-driven reliability and proactive incident response.
+- Mentored engineers in Angular, TypeScript, RxJS, and modern testing best practices.
+- Migrated CI/CD from Azure Pipelines to GitHub Actions, improving security posture and feedback loops.
 
----
+### **Beacon Technologies** | _Software Engineer (Consultant)_ | Feb 2019 – Mar 2021 | Appleton, WI
 
-### **Beacon Technologies** • _Software Engineer (Consultant)_ • Feb 2019 – Mar 2021 • Appleton, WI
+_Single project contract before transitioning to KBX directly:_
 
-**[KBX Logistics – Visibility](https://kbxtrack.kbxt.cloud/)** • _Full Stack (Angular, TypeScript, RxJS, Elasticsearch, C#, ASP.NET Core, AWS)_
+**[KBX Logistics – Visibility](https://kbxtrack.kbxt.cloud/)** • _Full Stack (Angular, RxJS, Elasticsearch, C#, ASP.NET Core, AWS)_
 
 - Developed a real-time freight tracking and supply chain visibility platform.
 - Enabled performant search and filtering by moving data from stored procedures to Elasticsearch.
 
----
+### **Omni Resources** | _Software Engineer (Consultant)_ | Jun 2015 – Feb 2019 | Appleton, WI
 
-### **Omni Resources** • _Software Engineer_ • Jun 2015 – Feb 2019 • Appleton, WI
-
-Worked as a solutions consultant on many projects. Each project had its own team, roles, responsibilities, and technologies, requiring me to quickly meld into new teams and adapt to new tech stacks.
+_Solutions consultant adapting to various tech stacks and team environments across multiple high-impact projects:_
 
 **[Homesite – Quote Refresh](https://autoinsurance1.progressivedirect.com/0/UQA/Quote/AddressEntryPrefillEdit)** • _Frontend (React, Redux, Material-UI, Storybook, Webpack, Swagger Hub, create-react-app)_
 
@@ -56,11 +51,12 @@ Worked as a solutions consultant on many projects. Each project had its own team
 - Delivered a proof-of-concept analytics dashboard for pharmaceutical adverse event data.
 - Designed custom interactive visualizations using Angular directives on SVG elements.
 
-**Renaissance – AWS Migration** • _DevOps (C#, AWS, Docker, Terraform, Packer, Linux, Redis, Jenkins)_
+**Renaissance – AWS Migration** • _DevOps (C#, AWS (ECS, EC2, RDS), Docker, Terraform, Packer, Linux, Redis, Jenkins)_
 
-- Led migration of legacy Windows services to microservices in Linux containers on AWS.
-- Built POCs to connect MongoDB, Redis, Kafka, and RabbitMQ to early versions of ASP.NET Core, addressing compatibility gaps.
-- Automated CI/CD pipelines with Jenkins to deploy containerized microservices.
+- Led migration of legacy Windows services to containerized linux microservices on AWS, improving reliability, scalability, and cost efficiency.
+- Designed and implemented infrastructure as code using Terraform and Packer for repeatable, auditable deployments.
+- Built POCs to integrate MongoDB, Redis, Kafka, and RabbitMQ with early ASP.NET Core versions, addressing compatibility gaps.
+- Automated CI/CD pipelines with Jenkins to deploy containerized microservices with zero-downtime releases.
 
 **[The Utech Group – illumyx](https://survey.illumyx.com/login)** • _Full Stack (AngularJS, Bootstrap, D3, C#, ASP.NET Core, Azure)_
 
@@ -71,11 +67,7 @@ Worked as a solutions consultant on many projects. Each project had its own team
 
 - Enhanced dashboards displaying real-time telemetry data from connected welders.
 
-### **Thrivent Financial** • _Java Application Developer (Intern)_ • May 2014 – Sep 2014 • Appleton, WI
-
-- Fixed bugs and enhanced Java-based intranet applications.
-
-### **[Mercury Marine – CDS G3](https://service.mercurymarine.com/)** • _Software Developer (Intern)_ • May 2013 – Dec 2013 • Oshkosh, WI
+### **[Mercury Marine – CDS G3](https://service.mercurymarine.com/)** | _Software Developer Intern_ | May 2013 – Dec 2013 | Oshkosh, WI
 
 **Tech:** C#, WPF, .NET, Microsoft SQL Server, C, VMware
 
@@ -83,7 +75,7 @@ Worked as a solutions consultant on many projects. Each project had its own team
 - Created a CI/CD build server using VMware and JetBrains TeamCity to automate regression testing.
 - Debugged applications communicating with embedded systems via CAN bus.
 
-### **[UW Platteville – Economics Research](https://scholar.google.com/citations?user=1ipdzgEAAAAJ&hl=en)** • _Research Software Developer_ • Mar 2011 – May 2013
+### **[UW Platteville – Economics Research](https://scholar.google.com/citations?user=1ipdzgEAAAAJ&hl=en)** | _Research Software Developer_ | Mar 2011 – May 2013
 
 **Tech:** C++
 
@@ -98,42 +90,47 @@ Worked as a solutions consultant on many projects. Each project had its own team
 
 Contributed to major open-source ecosystems to improve developer experience, remove blockers, and modernize tooling.
 
-- **[angular/angular](https://github.com/angular/angular)** – Added compiler diagnostic to detect missing directive imports, to assist standalone migrations.
-- **[microsoft/TypeScript](https://github.com/microsoft/TypeScript)** – Corrected compiler docs, clarifying undocumented conditional default values.
-- **[ReactiveX/rxjs](https://github.com/ReactiveX/rxjs)** – Fixed type inference in `partition`, preserving type safety for a key pattern.
-- **[storybookjs/storybook](https://github.com/storybookjs/storybook)** – Resolved Angular visual regression testing bugs in v7 to unblock our adoption of latest Storybook features.
-- **[compodoc/compodoc](https://github.com/compodoc/compodoc)** – Fixed CI/test issues for Angular documentation tool, expediting a release to support signal based inputs in storybook.
-- **[vitejs/vite](https://github.com/vitejs/vite)** – Modernized TypeScript docs for project alignment.
-- **[dstelljes/luxon-angular](https://github.com/dstelljes/luxon-angular)** - Updated the build process to support Angular 11, unblocking product-team upgrades.
-- **[JetBrains/YouTrackSharp](https://github.com/JetBrains/YouTrackSharp)** – Added `SecureString` auth support for internal .NET automation tools.
+- **[angular/angular](https://github.com/angular/angular):** Added compiler diagnostics to detect missing imports, aiding standalone component migrations.
+- **[microsoft/TypeScript](https://github.com/microsoft/TypeScript):** Corrected compiler documentation to address undocumented conditional default values.
+- **[ReactiveX/rxjs](https://github.com/ReactiveX/rxjs):** Fixed type inference in the `partition` operator to preserve type safety.
+- **[storybookjs/storybook](https://github.com/storybookjs/storybook):** Resolved Angular-specific bugs in v7 to enable visual regression testing.
+- **[compodoc/compodoc](https://github.com/compodoc/compodoc):** Fixed tests and CI issues, expediting a release to support signal-based inputs in downstream storybook.
+- **[vitejs/vite](https://github.com/vitejs/vite):** Modernized TypeScript documentation to align with current best practices.
 
 > _Additional contributions on [GitHub](https://github.com/manbearwiz)_
 
----
+## Technical Skills
 
-## **Technical Skills**
-
-### **Frontend**
+### Frontend
 
 - **Languages:** TypeScript, JavaScript, SASS/SCSS
 - **Frameworks:** Angular, React, Redux, D3, single-spa
 - **Components & Styling:** Tailwind CSS, Angular Material, Material-UI, Bootstrap
-- **Tooling:** Webpack, Storybook, create-react-app, Vite, esbuild, Prettier, ESLint
-- **Testing:** Jasmine, Jest, Playwright, Vitest
+- **Tools:** Webpack, Vite, Storybook, create-react-app, esbuild, ESLint, Prettier, Biome
+- **Testing:** Jasmine, Jest, Playwright, Karma, Vitest
 
-### **Backend**
+### Backend
 
 - **Languages:** C#, Python, Node.js, Java
 - **Frameworks:** ASP.NET Core, Express, GraphQL, Starlette
-- **Databases / Search:** Elasticsearch, Apache Lucene, PostgreSQL, SQL Server, MarkLogic, MongoDB, Redis
 
-### **DevOps**
+### Data & Search
 
-- **Infrastructure:** Docker, Terraform, Packer, Kubernetes
-- **CI/CD:** GitHub Actions, Azure Pipelines, Jenkins, TeamCity, TravisCI
-- **Source Control:** Git, GitHub, Bitbucket, Azure DevOps, Subversion
+- **Databases:** PostgreSQL, SQL Server, Redis, MongoDB, MySQL, SQLite
+- **Search:** OpenSearch, Elasticsearch, Apache Lucene, MongoDB Atlas Search, MarkLogic
 
-### **Cloud**
+### Infrastructure & DevOps
 
-- **AWS:** Lambda, CloudFront, S3, ECS, EC2, RDS, ElastiCache, OpenSearch
-- **Azure:** Blob Storage, CDN, Azure SQL Database
+- **Infrastructure as Code:** Terraform, Packer, CloudFormation
+- **Containerization & Orchestration:** Docker, Kubernetes
+- **CI/CD:** GitHub Actions, Jenkins, Azure Pipelines, TeamCity, Travis CI
+- **Source Control:** Git, GitHub, Bitbucket, Azure DevOps, Apache Subversion
+
+### Observability
+
+- **Datadog:** Dashboards, APM, RUM, SLOs
+
+### Cloud Platforms
+
+- **AWS:** EC2, ECS, Lambda, RDS, S3, CloudFront, ElastiCache, OpenSearch, IAM
+- **Azure:** App Services, Functions, Blob Storage, CDN, SQL Database
