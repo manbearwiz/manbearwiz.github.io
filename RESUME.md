@@ -8,28 +8,29 @@
 
 ## Experience
 
-### **KBX** | _Software Engineer → Software Architect_ | Mar 2021 – Present | Green Bay, WI
+### **KBX** | _Software Architect_ | Mar 2021 – Present | Green Bay, WI
 
 **Tech:** Angular, TypeScript, RxJS, Angular Material, single-spa, Storybook, Webpack, Vite, Datadog, GitHub Actions, Docker, AWS (CloudFront, S3, ECS, OpenSearch)
 
-- Architected and led the frontend platform for a large-scale Transportation Management System (TMS).
-- Designed and implemented a microfrontend architecture with single-spa, native ES Modules, and Vite, enabling fast, independent team deployments and reducing cross-team dependencies.
-- Developed core modules for AuthN/AuthZ, logging, notifications, and feature flags to ensure architectural consistency across 10+ teams.
-- Orchestrated automated, independent upgrades for 100+ microfrontends across major framework changes, mitigating EOL risks with minimal disruption to development.
+- Led the frontend platform strategy for a large-scale Transportation Management System (TMS).
+- Architected a high-performance microfrontend platform using single-spa, native ES Modules, and Vite, enabling fast, independent team deployments and reducing cross-team dependencies.
+- Developed core modules for AuthN/AuthZ, logging, notifications, and feature flags to enforce architectural consistency across teams.
+- Automated independent upgrades and migrations for ~70 microfrontends across major framework changes, mitigating EOL risks with minimal developer intervention.
 - Established coding standards, shared tooling, and generative AI instructions to maintain high code quality and accelerate development.
 - Collaborated with UX to build a reusable UI library in Storybook with automated visual regression testing.
-- Established SLIs/SLOs via Datadog for 500+ production microservices, enabling data-driven reliability and proactive incident response.
-- Mentored engineers in Angular, TypeScript, RxJS, and modern testing best practices.
-- Migrated CI/CD from Azure Pipelines to GitHub Actions, improving security posture and feedback loops.
+- Established SLIs/SLOs via Datadog across 500+ production microservices, fostering a culture of reliability and proactive incident response.
+- Led Frontend Community of Practice, mentoring senior engineers in Angular, TypeScript, RxJS, and modern testing best practices.
+- Migrated CI/CD from Azure Pipelines to GitHub Actions, improving security posture, reducing pipeline complexity, and tightening feedback loops.
 
-### **Beacon Technologies** | _Software Engineer (Consultant)_ | Feb 2019 – Mar 2021 | Appleton, WI
+### **Beacon Technologies** | _Full Stack Software Engineer (Consultant)_ | Feb 2019 – Mar 2021 | Appleton, WI
 
 _Single project contract before transitioning to KBX directly:_
 
 **[KBX Logistics – Visibility](https://kbxtrack.kbxt.cloud/)** • _Full Stack (Angular, RxJS, Elasticsearch, C#, ASP.NET Core, AWS)_
 
 - Developed a real-time freight tracking and supply chain visibility platform.
-- Enabled performant search and filtering by moving data from stored procedures to Elasticsearch.
+- Engineered a scheduled ingestion pipeline to resolve extreme latency in legacy SQL environments, flattening complex data from "black-box" stored procedures into Elasticsearch, allowing querys that would previously timeout to complete in miliseconds.
+- Enabled real-time search, paging, and filtering across years of historical data, giving the business previously "un-queryable" visibility into global freight movement.
 
 ### **Omni Resources** | _Software Engineer (Consultant)_ | Jun 2015 – Feb 2019 | Appleton, WI
 
