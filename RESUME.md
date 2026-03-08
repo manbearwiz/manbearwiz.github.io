@@ -12,14 +12,14 @@
 
 **Tech:** Angular, TypeScript, RxJS, Angular Material, single-spa, Storybook, Webpack, Vite, Datadog, GitHub Actions, Docker, AWS (CloudFront, S3, ECS, OpenSearch)
 
-- Led the frontend platform strategy for a large-scale Transportation Management System (TMS).
-- Architected a high-performance microfrontend platform using single-spa, native ES Modules, and Vite, enabling fast, independent team deployments and reducing cross-team dependencies.
-- Developed core modules for AuthN/AuthZ, logging, notifications, and feature flags to enforce architectural consistency across teams.
-- Automated independent upgrades and migrations for ~70 microfrontends across major framework changes, mitigating EOL risks with minimal developer intervention.
-- Established coding standards, shared tooling, and generative AI instructions to maintain high code quality and accelerate development.
+- Led the frontend platform strategy for a large-scale Transportation Management System (TMS), reducing cross-team dependencies and accelerating delivery cycles.
+- Architected a high-performance platform using single-spa, native ES Modules, and Vite, enabling 10+ teams to deploy independently.
+- Developed core modules for AuthN/AuthZ, logging, and feature flags, ensuring unified abstractions across the platform.
+- Automated major framework migrations across ~70 microfrontends, reducing technical debt with minimal developer intervention.
+- Established coding standards, shared tooling, and generative AI instructions to maintain high code quality and increase engineering velocity.
 - Collaborated with UX to build a reusable UI library in Storybook with automated visual regression testing.
-- Established SLIs/SLOs via Datadog across 500+ production microservices, fostering a culture of reliability and proactive incident response.
-- Led Frontend Community of Practice, mentoring senior engineers in Angular, TypeScript, RxJS, and modern testing best practices.
+- Established SLIs/SLOs via Datadog across 500+ production microservices, fostering a culture of proactive incident response.
+- Led the Frontend Community of Practice, mentoring senior engineers on RxJS patterns, modern testing best practices, and performance optimization.
 - Migrated CI/CD from Azure Pipelines to GitHub Actions, improving security posture, reducing pipeline complexity, and tightening feedback loops.
 
 ### **Beacon Technologies** | _Full Stack Software Engineer (Consultant)_ | Feb 2019 – Mar 2021 | Appleton, WI
@@ -28,9 +28,10 @@ _Single project contract before transitioning to KBX directly:_
 
 **[KBX Logistics – Visibility](https://kbxtrack.kbxt.cloud/)** • _Full Stack (Angular, RxJS, Elasticsearch, C#, ASP.NET Core, AWS)_
 
-- Developed a real-time freight tracking and supply chain visibility platform.
-- Engineered a scheduled ingestion pipeline to resolve extreme latency in legacy SQL environments, flattening complex data from "black-box" stored procedures into Elasticsearch, allowing querys that would previously timeout to complete in miliseconds.
-- Enabled real-time search, paging, and filtering across years of historical data, giving the business previously "un-queryable" visibility into global freight movement.
+- Developed a real-time freight tracking and supply chain visibility platform serving global logistics operations.
+- Designed a scheduled ingestion pipeline to bypass legacy bottlenecks, flattening complex data from "black-box" stored procedures into Elasticsearch.
+- Reduced query times from timeouts to milliseconds, enabling real-time search, paging, and filtering across years of historical data.
+- Delivered previously unattainable visibility into freight movement, giving the business new actionable insights into logistics operations.
 
 ### **Omni Resources** | _Software Engineer (Consultant)_ | Jun 2015 – Feb 2019 | Appleton, WI
 
