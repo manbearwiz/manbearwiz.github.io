@@ -2,35 +2,40 @@
 
 **Software Architect** | [kevinbrey.com](https://kevinbrey.com) | [LinkedIn](https://linkedin.com/in/breyk) | [GitHub](https://github.com/manbearwiz)
 
-## Education
-
-**B.S. Software Engineering (ABET Accredited)** University of Wisconsin–Platteville, 2015
-
 ## Experience
 
-### **KBX** | _Software Architect_ | Mar 2021 – Present | Green Bay, WI
+### **Breakthrough Fuel** | Senior Software Engineer | Feb 2026 - Present
+
+**Tech:** React, TypeScript, Node.js, GraphQL, GCP, Bitbucket Pipelines
+
+- Cut CI pipeline times from >20 minutes to <5 minutes, tightening developer and AI agent feedback loops.
+- Implemented PR preview deployments via a Cloud Build pipeline, providing instant, shareable environments for every pull request, streamlining stakeholder reviews.
+- Migrating tooling from legacy react-app-rewired/Webpack/Jest to Vite and Vitest for faster local development.
+- Dismantling the UI monolith into a composite project structure, enabling faster incremental typechecking via `tsgo`.
+- Delivering full-stack features end-to-end, spanning GraphQL schema, resolvers, foundation services, and React UI.
+
+### **KBX** | _Software Architect_ | Mar 2021 – Feb 2026
 
 **Tech:** Angular, TypeScript, RxJS, Angular Material, single-spa, Storybook, Webpack, Vite, Datadog, GitHub Actions, Docker, AWS (CloudFront, S3, ECS, OpenSearch)
 
-- Led the frontend platform strategy for a large-scale Transportation Management System (TMS), reducing cross-team dependencies and accelerating delivery cycles.
-- Architected a high-performance platform using single-spa, native ES Modules, and Vite, enabling 10+ teams to deploy independently.
-- Developed core modules for AuthN/AuthZ, logging, and feature flags, ensuring unified abstractions across the platform.
-- Automated major framework migrations across ~70 microfrontends, reducing technical debt with minimal developer intervention.
-- Established coding standards, shared tooling, and generative AI instructions to maintain high code quality and increase engineering velocity.
-- Collaborated with UX to build a reusable UI library in Storybook with automated visual regression testing.
-- Established SLIs/SLOs via Datadog across 500+ production microservices, fostering a culture of proactive incident response.
-- Led the Frontend Community of Practice, mentoring senior engineers on RxJS patterns, modern testing best practices, and performance optimization.
+- Led the frontend platform strategy for a large-scale Transportation Management System (TMS), reducing cross-team dependencies, and accelerating delivery cycles.
+- Architected a unified, framework-agnostic platform using single-spa, native ES Modules, and Vite, enabling 10+ product teams to develop and deploy independently.
+- Built and maintained foundational core modules for AuthN/AuthZ, feature flags, and notifications, ensuring a seamless developer experience.
+- Automated framework migrations and library upgrades across 70+ microfrontends using jscodeshift codemods and Angular Schematics, programmatically resolving breaking changes with minimal manual intervention.
+- Authored custom compiler diagnostics and linting rules to detect architectural anti-patterns and maintain standards across product teams.
+- Established AI-assisted workflows and prompt-engineering standards to help product engineers  leverage LLMs to ship code rapidly.
+- Partnered with UX to build a reusable design system and UI library hosted in Storybook with automated visual regression testing.
+- Established observability and client performance SLIs/SLOs via Datadog across 500+ production microservices, catching core web vital regressions before they hit production.
+- Led the Frontend Community of Practice, mentoring senior engineers on RxJS patterns, modern testing best practices, and client-side performance optimization.
 - Migrated CI/CD from Azure Pipelines to GitHub Actions, improving security posture, reducing pipeline complexity, and tightening feedback loops.
 
 ### **Beacon Technologies** | _Full Stack Software Engineer (Consultant)_ | Feb 2019 – Mar 2021 | Appleton, WI
-
-_Single project contract before transitioning to KBX directly:_
 
 **[KBX Logistics – Visibility](https://kbxtrack.kbxt.cloud/)** • _Full Stack (Angular, RxJS, Elasticsearch, C#, ASP.NET Core, AWS)_
 
 - Developed a real-time freight tracking and supply chain visibility platform serving global logistics operations.
 - Designed a scheduled ingestion pipeline to bypass legacy bottlenecks, flattening complex data from "black-box" stored procedures into Elasticsearch.
-- Reduced query times from timeouts to milliseconds, enabling real-time search, paging, and filtering across years of historical data.
+- Reduced query times from timeouts to milliseconds, enabling sub-second search, paging, and filtering across years of historical logistics data.
 - Delivered previously unattainable visibility into freight movement, giving the business new actionable insights into logistics operations.
 
 ### **Omni Resources** | _Software Engineer (Consultant)_ | Jun 2015 – Feb 2019 | Appleton, WI
@@ -94,12 +99,18 @@ Contributed to major open-source ecosystems to improve developer experience, rem
 
 - **[angular/angular](https://github.com/angular/angular):** Added compiler diagnostics to detect missing imports, aiding standalone component migrations.
 - **[microsoft/TypeScript](https://github.com/microsoft/TypeScript):** Corrected compiler documentation to address undocumented conditional default values.
+- **[react-resizable](https://github.com/react-grid-layout/react-resizable):** Corrected the resize logic on elements with locked aspect ratio.
 - **[ReactiveX/rxjs](https://github.com/ReactiveX/rxjs):** Fixed type inference in the `partition` operator to preserve type safety.
-- **[storybookjs/storybook](https://github.com/storybookjs/storybook):** Resolved Angular-specific bugs in v7 to enable visual regression testing.
+- **[storybookjs/storybook](https://github.com/storybookjs/storybook):** Resolved Angular-specific bugs in v7 to unblock visual regression testing tools.
 - **[compodoc/compodoc](https://github.com/compodoc/compodoc):** Fixed tests and CI issues, expediting a release to support signal-based inputs in downstream storybook.
 - **[vitejs/vite](https://github.com/vitejs/vite):** Modernized TypeScript documentation to align with current best practices.
 
 > _Additional contributions on [GitHub](https://github.com/manbearwiz)_
+
+## Education
+
+**B.S. Software Engineering (ABET Accredited)**
+University of Wisconsin–Platteville, 2015
 
 ## Technical Skills
 
@@ -108,7 +119,7 @@ Contributed to major open-source ecosystems to improve developer experience, rem
 - **Languages:** TypeScript, JavaScript, SASS/SCSS
 - **Frameworks:** Angular, React, Redux, D3, single-spa
 - **Components & Styling:** Tailwind CSS, Angular Material, Material-UI, Bootstrap
-- **Tools:** Webpack, Vite, Storybook, create-react-app, esbuild, ESLint, Prettier, Biome
+- **Tools:** Webpack, Vite, Storybook, create-react-app, esbuild, ESLint, Prettier, Biome, jscodeshift
 - **Testing:** Jasmine, Jest, Playwright, Karma, Vitest
 
 ### Backend
