@@ -1,66 +1,427 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Kevin Brey — Software Engineer" />
+    <meta name="author" content="Kevin Brey" />
+    <meta
+      name="theme-color"
+      content="#0a0a0a"
+      media="(prefers-color-scheme: dark)"
+    />
+    <meta
+      name="theme-color"
+      content="#f5f5f7"
+      media="(prefers-color-scheme: light)"
+    />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-  <meta name="description" content="Home page for Kevin Brey's personal website." />
-  <meta name="author" content="Kevin Brey" />
-  <meta name="theme-color" content="#002b36" />
+    <title>Kevin Brey</title>
 
-  <title>Kevin Brey</title>
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="manifest" href="/manifest.json" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300'>
+    <link rel="manifest" href="/manifest.json" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="main.css" />
-</head>
+  </head>
 
-<body class="d-flex h-100 text-center text-white roboto-300">
-  <div class="container d-flex w-100 px-5 flex-column justify-content-between">
-    <header class="mb-auto"></header>
-    <main class="jumbotron py-5 ">
-      <h1>Kevin Brey</h1>
-      <p class="lead">Software Engineer</p>
-      <ul class="social list-inline">
-        <li class="list-inline-item">
-          <a target="_blank" rel="noopener" href="https://linkedin.com/in/breyk" aria-label="LinkedIn"><i class="fa fa-linkedin-square"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a target="_blank" rel="noopener" href="https://stackexchange.com/users/1307817/kevin-brey"
-            aria-label="Stack Exchange"><i class="fa fa-stack-exchange"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a target="_blank" rel="noopener" href="https://reddit.com/user/manbearwiz" aria-label="Reddit"><i class="fa fa-reddit-square"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a target="_blank" rel="noopener" href="https://twitter.com/manbearwiz" aria-label="Twitter"><i class="fa fa-twitter-square"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a target="_blank" rel="noopener" href="https://instagram.com/manbearwiz/" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a target="_blank" rel="noopener" href="https://facebook.com/kevin.brey.5" aria-label="Facebook"><i class="fa fa-facebook-square"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a target="_blank" rel="noopener" href="https://github.com/manbearwiz" aria-label="GitHub"><i class="fa fa-github-square"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a target="_blank" rel="noopener" href="https://bitbucket.org/kevin_brey" aria-label="Bitbucket"><i class="fa fa-bitbucket-square"></i></a>
-        </li>
-        <li class="list-inline-item">
-          <a target="_top" href="mailto:manbearwiz@gmail.com" aria-label="email'"><i class="fa fa-envelope-square"></i></a>
-        </li>
-      </ul>
-    </main>
-    <footer class="mt-auto text-muted">
-      <p></p>
-    </footer>
-  </div>
-</body>
+  <body>
+    <!-- Animated nebulous background -->
+    <div class="nebula-bg" aria-hidden="true">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+      <div class="blob blob-4"></div>
+    </div>
 
+    <!-- Sticky header (hidden until scroll) -->
+    <header class="site-header">
+      <div class="container d-flex align-items-center justify-content-between">
+        <span class="header-name">Kevin Brey</span>
+        <nav class="social d-flex gap-2" aria-label="Social links (header)">
+          <a
+            target="_blank"
+            rel="noopener"
+            href="https://linkedin.com/in/breyk"
+            aria-label="LinkedIn"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            target="_blank"
+            rel="noopener"
+            href="https://github.com/manbearwiz"
+            aria-label="GitHub"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a target="_top" href="mailto:manbearwiz@gmail.com" aria-label="Email"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero section -->
+    <section
+      class="hero d-flex align-items-center justify-content-center text-center"
+      id="hero"
+    >
+      <div>
+        <h1>Kevin Brey</h1>
+        <p class="subtitle">Software Engineer</p>
+        <nav
+          class="social d-flex flex-wrap justify-content-center gap-2 mt-4"
+          aria-label="Social links"
+        >
+          <a
+            target="_blank"
+            rel="noopener"
+            href="https://linkedin.com/in/breyk"
+            aria-label="LinkedIn"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            target="_blank"
+            rel="noopener"
+            href="https://github.com/manbearwiz"
+            aria-label="GitHub"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            target="_blank"
+            rel="noopener"
+            href="https://stackexchange.com/users/1307817/kevin-brey"
+            aria-label="Stack Exchange"
+            ><i class="fa-brands fa-stack-exchange"></i
+          ></a>
+          <a
+            target="_blank"
+            rel="noopener"
+            href="https://reddit.com/user/manbearwiz"
+            aria-label="Reddit"
+            ><i class="fa-brands fa-reddit"></i
+          ></a>
+          <a
+            target="_blank"
+            rel="noopener"
+            href="https://instagram.com/manbearwiz/"
+            aria-label="Instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a target="_top" href="mailto:manbearwiz@gmail.com" aria-label="Email"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </nav>
+        <div class="scroll-hint mt-5">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path d="M7 13l5 5 5-5M7 6l5 5 5-5" />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects py-5" id="projects">
+      <div class="container">
+
+        <h2 class="text-center mb-5">Professional Work</h2>
+        <div class="row g-4 mb-5">
+          <div class="col-md-6 col-lg-4">
+            <a
+              href="https://kbxtrack.kbxt.cloud/"
+              target="_blank"
+              rel="noopener"
+              class="project-card glass-card rounded-4 p-4 d-block text-decoration-none h-100"
+            >
+              <h3>KBX Logistics Visibility</h3>
+              <p>
+                Real-time freight tracking and supply chain visibility platform
+                serving global logistics operations.
+              </p>
+              <span class="project-tags"
+                >Angular &bull; RxJS &bull; Elasticsearch &bull; AWS</span
+              >
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a
+              href="https://autoinsurance1.progressivedirect.com/0/UQA/Quote/AddressEntryPrefillEdit"
+              target="_blank"
+              rel="noopener"
+              class="project-card glass-card rounded-4 p-4 d-block text-decoration-none h-100"
+            >
+              <h3>Homesite Quote Refresh</h3>
+              <p>
+                Responsive web app for quoting and purchasing home and renters
+                insurance across multiple brands.
+              </p>
+              <span class="project-tags"
+                >React &bull; Redux &bull; Material-UI &bull; Storybook</span
+              >
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a
+              href="https://survey.illumyx.com/login"
+              target="_blank"
+              rel="noopener"
+              class="project-card glass-card rounded-4 p-4 d-block text-decoration-none h-100"
+            >
+              <h3>illumyx</h3>
+              <p>
+                Survey and analytics platform providing insights into corporate
+                culture with rich data visualization.
+              </p>
+              <span class="project-tags"
+                >AngularJS &bull; D3 &bull; C# &bull; Azure</span
+              >
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a
+              href="https://insight.millerwelds.com/"
+              target="_blank"
+              rel="noopener"
+              class="project-card glass-card rounded-4 p-4 d-block text-decoration-none h-100"
+            >
+              <h3>Miller Insight Core</h3>
+              <p>
+                Dashboards displaying real-time telemetry data from connected
+                welding equipment.
+              </p>
+              <span class="project-tags"
+                >Knockout &bull; Highcharts &bull; C# &bull; Azure</span
+              >
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a
+              href="https://service.mercurymarine.com/"
+              target="_blank"
+              rel="noopener"
+              class="project-card glass-card rounded-4 p-4 d-block text-decoration-none h-100"
+            >
+              <h3>Mercury Marine CDS G3</h3>
+              <p>
+                Desktop application for configuring and diagnosing engine and
+                vessel control systems.
+              </p>
+              <span class="project-tags"
+                >C# &bull; WPF &bull; .NET &bull; SQL Server</span
+              >
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a
+              href="https://scholar.google.com/citations?user=1ipdzgEAAAAJ&hl=en"
+              target="_blank"
+              rel="noopener"
+              class="project-card glass-card rounded-4 p-4 d-block text-decoration-none h-100"
+            >
+              <h3>Economics Research</h3>
+              <p>
+                Network models predicting sectoral economic growth based on R&D
+                investment data from IMF and World Bank.
+              </p>
+              <span class="project-tags">C++ &bull; Network Analysis</span>
+            </a>
+          </div>
+        </div>
+
+        <h2 class="text-center mb-5">Side Projects</h2>
+        <div class="row g-4 mb-5">
+          <div class="col-md-6 col-lg-4">
+            <a
+              href="https://github.com/manbearwiz/youtube-dl-server"
+              target="_blank"
+              rel="noopener"
+              class="project-card glass-card rounded-4 p-4 d-block text-decoration-none h-100"
+            >
+              <h3>youtube-dl-server</h3>
+              <p>
+                Web and REST interface for downloading videos onto a server.
+                900+ stars on GitHub.
+              </p>
+              <span class="project-tags"
+                >Python &bull; Starlette &bull; yt-dlp &bull; Docker</span
+              >
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a
+              href="https://github.com/jpl-labs/rock-chain-ui"
+              target="_blank"
+              rel="noopener"
+              class="project-card glass-card rounded-4 p-4 d-block text-decoration-none h-100"
+            >
+              <h3>Rock Chain</h3>
+              <p>
+                Ethereum dApp for live event betting built for a tech conference
+                booth demo, using Solidity smart contracts on a private blockchain.
+              </p>
+              <span class="project-tags"
+                >Solidity &bull; Angular &bull; Web3 &bull; Ethereum</span
+              >
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a
+              href="https://apkpure.com/smart-lifter/com.brey.smartlifter"
+              target="_blank"
+              rel="noopener"
+              class="project-card glass-card rounded-4 p-4 d-block text-decoration-none h-100"
+            >
+              <h3>Smart Lifter</h3>
+              <p>
+                Android app for tracking weightlifting workouts, projecting
+                one-rep maxes, and auto-generating progressive training plans.
+              </p>
+              <span class="project-tags">Android &bull; Java</span>
+            </a>
+          </div>
+        </div>
+
+        <h2 class="text-center mb-5">Open Source</h2>
+        <div class="row g-4 mb-5">
+          <div class="col-md-6 col-lg-4">
+            <a
+              href="https://github.com/angular/angular"
+              target="_blank"
+              rel="noopener"
+              class="project-card glass-card rounded-4 p-4 d-block text-decoration-none h-100"
+            >
+              <h3>angular/angular</h3>
+              <p>Added compiler diagnostics to detect missing imports, aiding standalone component migrations.</p>
+              <span class="project-tags">TypeScript &bull; Compiler</span>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a
+              href="https://github.com/microsoft/TypeScript"
+              target="_blank"
+              rel="noopener"
+              class="project-card glass-card rounded-4 p-4 d-block text-decoration-none h-100"
+            >
+              <h3>microsoft/TypeScript</h3>
+              <p>Corrected compiler documentation to address undocumented conditional default values.</p>
+              <span class="project-tags">TypeScript &bull; Docs</span>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a
+              href="https://github.com/ReactiveX/rxjs"
+              target="_blank"
+              rel="noopener"
+              class="project-card glass-card rounded-4 p-4 d-block text-decoration-none h-100"
+            >
+              <h3>ReactiveX/rxjs</h3>
+              <p>Fixed type inference in the <code>partition</code> operator to preserve type safety.</p>
+              <span class="project-tags">TypeScript &bull; Reactive</span>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a
+              href="https://github.com/storybookjs/storybook"
+              target="_blank"
+              rel="noopener"
+              class="project-card glass-card rounded-4 p-4 d-block text-decoration-none h-100"
+            >
+              <h3>storybookjs/storybook</h3>
+              <p>Resolved Angular-specific bugs in v7 to unblock visual regression testing tools.</p>
+              <span class="project-tags">Angular &bull; Testing</span>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a
+              href="https://github.com/react-grid-layout/react-resizable"
+              target="_blank"
+              rel="noopener"
+              class="project-card glass-card rounded-4 p-4 d-block text-decoration-none h-100"
+            >
+              <h3>react-resizable</h3>
+              <p>Corrected resize logic on elements with a locked aspect ratio.</p>
+              <span class="project-tags">React &bull; Bug Fix</span>
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a
+              href="https://github.com/vitejs/vite"
+              target="_blank"
+              rel="noopener"
+              class="project-card glass-card rounded-4 p-4 d-block text-decoration-none h-100"
+            >
+              <h3>vitejs/vite</h3>
+              <p>Modernized TypeScript documentation to align with current best practices.</p>
+              <span class="project-tags">TypeScript &bull; Docs</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // Sticky header — show after scrolling past ~60% of viewport
+      const header = document.querySelector(".site-header");
+      const threshold = window.innerHeight * 0.6;
+
+      function updateHeader() {
+        header.classList.toggle("visible", window.scrollY > threshold);
+      }
+      document.addEventListener("scroll", updateHeader, { passive: true });
+      updateHeader();
+
+      // Scroll-triggered fade-in for project cards
+      const cards = document.querySelectorAll(".project-card");
+      const cardObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("revealed");
+              cardObserver.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.1, rootMargin: "0px 0px -50px 0px" },
+      );
+      cards.forEach((card) => cardObserver.observe(card));
+    </script>
+  </body>
 </html>
