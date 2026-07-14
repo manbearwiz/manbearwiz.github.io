@@ -97,12 +97,14 @@ _Solutions consultant adapting to various tech stacks and team environments acro
 
 Contributed to major open-source ecosystems to improve developer experience, remove blockers, and modernize tooling.
 
-- **[angular/angular](https://github.com/angular/angular):** Added compiler diagnostics to detect missing imports, aiding standalone component migrations.
+- **[angular/angular](https://github.com/angular/angular):** Added compiler diagnostics to detect missing imports, helping standalone component migrations.
 - **[microsoft/TypeScript](https://github.com/microsoft/TypeScript):** Corrected compiler documentation to address undocumented conditional default values.
-- **[react-resizable](https://github.com/react-grid-layout/react-resizable):** Corrected the resize logic on elements with locked aspect ratio.
+- **[tsconfig/bases](https://github.com/tsconfig/bases):** Removed `checkJs` from the `strictest` config so `allowJs` is no longer enabled implicitly.
+- **[mui/material-ui](https://github.com/mui/material-ui):** Fixed codemod bugs around export rewriting and state leakage between files.
+- **[react-resizable](https://github.com/react-grid-layout/react-resizable):** Corrected the resize logic for elements with a locked aspect ratio.
 - **[ReactiveX/rxjs](https://github.com/ReactiveX/rxjs):** Fixed type inference in the `partition` operator to preserve type safety.
 - **[storybookjs/storybook](https://github.com/storybookjs/storybook):** Resolved Angular-specific bugs in v7 to unblock visual regression testing tools.
-- **[compodoc/compodoc](https://github.com/compodoc/compodoc):** Fixed tests and CI issues, expediting a release to support signal-based inputs in downstream storybook.
+- **[compodoc/compodoc](https://github.com/compodoc/compodoc):** Fixed tests and CI issues so a release could ship with support for signal-based inputs in downstream Storybook workflows.
 - **[vitejs/vite](https://github.com/vitejs/vite):** Modernized TypeScript documentation to align with current best practices.
 
 > _Additional contributions on [GitHub](https://github.com/manbearwiz)_
